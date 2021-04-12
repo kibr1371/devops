@@ -1,5 +1,5 @@
 pipeline {
-  enviroment {
+  environment {
     imagename = "kibr1371/jenkins"
     registryCredential = 'dockerhub_id'
     dockerImage = ''
