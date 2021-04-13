@@ -30,7 +30,8 @@ pipeline {
     }
     stage('Run Docker image') {
       steps{
-        sh "docker run -p8585:9090 -d kibr1371/lesson2"
+        sh "docker run -p8585:9090 -d $imagename:latest"
+        
       }
     }
   }
