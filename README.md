@@ -1,1 +1,1 @@
-![Jenkins Status Badge](https://github.com/jenkinsci/embeddable-build-status-plugin/blob/master/src/doc/config_example_1.svg)
+[![Build Status](https://github.com/jenkinsci/embeddable-build-status-plugin/blob/master/src/doc/flat_unconfigured.svg)]
