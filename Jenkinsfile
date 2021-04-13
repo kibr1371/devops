@@ -34,5 +34,10 @@ pipeline {
           sh "docker rmi $imagename:latest"
       }
     }
+    stage('Run Docker image') {
+      steps{
+        sh "docker run -p8585:9090 -d kibr1371/lesson2"
+      }
+    }
   }
 }
