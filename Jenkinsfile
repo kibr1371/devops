@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "kibr1371/lesson3"
+    imagename = "kibr1371/lesson2"
     registryCredential = 'dockerhub_id'
     dockerImage = ''
   }
